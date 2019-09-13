@@ -2,26 +2,6 @@ import React from 'react';
 import '../App.css';
 //import DormeterCard from './Cards/DormeterCard';
 //import ExcellenceCard from './Cards/ExcellenceCard';
-<<<<<<< HEAD
-import CrimeLiteCard from './Cards/CrimeLiteCard';
-import KnowItAllCard from './Cards/KnowItAllCard';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-
-function genCard(cardName, cardTitle, cardText, cardImg, buttonLink, buttonLink2) { // Generates a display card
-  return (
-    <div className={cardName}>
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={cardImg} />
-        <Card.Body>
-          <Card.Title>{cardTitle}</Card.Title>
-          <Card.Text>
-            {cardText}
-          </Card.Text>
-          <Button href={buttonLink} variant="primary">GitHub Link</Button>
-        </Card.Body>
-      </Card>
-=======
 //import CrimeLiteCard from './Cards/CrimeLiteCard';
 //import KnowItAllCard from './Cards/KnowItAllCard';
 import Card from 'react-bootstrap/Card';
@@ -54,21 +34,10 @@ function genCard(borderColor,cardTags,cardName, cardTitle, cardText, cardImg, bu
         </Card.Body>
       </Card>
       </a>
->>>>>>> parent of 82eb756... Merge branch 'master' of https://github.com/brotibi/brotibi.github.io
     </div>
   );
 };
 
-<<<<<<< HEAD
-const TestCard = genCard("TestCard", "Test Card", "This is a test", "test", "test");
-const DormeterCard = genCard("DormeterCard", "DormeterV1(old)",
-  "Dormeter is a website I developed .It utilizes Node.js, Express.js, EJS and a bunch of other js libraries.",
-  "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png",
-  "https://github.com/brotibi/dormeterV1-old-");
-
-const ExcellenceCard = genCard("ExcellenceCard", "Excellence Animator",
-  "                    A simple animator developed using Java, with the GUI features developed using" +
-=======
 // Badges
 const javaBadge = <Badge variant="info">Java</Badge>;
 const htmlBadge = <Badge variant="info">HTML</Badge>;
@@ -89,31 +58,12 @@ const DormeterCard = genCard("primary",[nodeBadge, jsBadge, cssBadge, htmlBadge,
 
 const ExcellenceCard = genCard("secondary",[javaBadge, cs3500Badge],"ExcellenceCard", "Excellence Animator",
   "                    A simple animator developed using Java, with the GUI features developed using " +
->>>>>>> parent of 82eb756... Merge branch 'master' of https://github.com/brotibi/brotibi.github.io
   "Java's swing library. I developed this in collaboration with my partner Pablo Kvitca." +
   "The purpose of this assignment was to showcase what we had learned during the semester, and " +
   "how well we could follow the Model View Controller design pattern.",
   "https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon.png",
   "https://github.com/brotibi/CS-3500-OOD-Project");
 
-<<<<<<< HEAD
-function Showcase() {
-  return (
-    <div className='Showcase'>
-      <h1>Showcase of my personal projects</h1>
-      <ul>
-        <li>{DormeterCard}</li>
-        <li>{ExcellenceCard}</li>
-        <li><CrimeLiteCard /></li>
-        <li><KnowItAllCard /></li>
-        <li>{TestCard} </li>
-      </ul>
-    </div>
-  );
-};
-
-export default Showcase;
-=======
   const CrimeLiteCard = genCard("success",[htmlBadge, cssBadge, jsBadge],"CrimeLiteCard", <a href = "http://www.crime-lite.com">crime-lite.com</a>, 
   "At Boston Hacks 2018, my team and I developed a website that visualizes the number of traffic lights relative" +
   "to the crime rate of areas around Boston. We utilized the Google Maps API along with Javascript, Python, HTML and CSS " +
@@ -129,7 +79,7 @@ export default Showcase;
   "https://github.com/robSanders818/sports-database");
 
   const ThisWebsiteCard = genCard("warning",[nodeBadge, jsBadge, cssBadge, htmlBadge, reactBadge],"ThisWebsite", "This Website", 
-  "Well I used React to develop my Personal Website(The one you are currently viewing), nuff said",
+  "Well I used React to develop my Personal Website(The one you are currently viewing), nuff said.",
   "https://hackernoon.com/hn-images/1*y6C4nSvy2Woe0m7bWEn4BA.png",
   "https://github.com/brotibi/BolajiRotibiPersonalSite");
 
@@ -157,7 +107,7 @@ export default Showcase;
                      <p>This is random but here are some fun facts about me:</p>
                      <ul>
                        <li>I was born in Nigeria, spent most of my early life in the United Kingdom, and attended High School(and now University) in the United States</li>
-                       <li>When it comes to Computer Science I find most aspects of it interesting, but currently I'm interested in Networks and Systems, AR and VR, and 
+                       <li>When it comes to Computer Science, I find most aspects of it interesting, but currently I'm interested in Networks and Systems, AR and VR, and 
                            Web and Software(wow this sounds so general) Development</li>
                        <li></li>
                      </ul>
@@ -239,4 +189,3 @@ function Showcase() {
   );
 };
 export default Showcase;
->>>>>>> parent of 82eb756... Merge branch 'master' of https://github.com/brotibi/brotibi.github.io
