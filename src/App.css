@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+<<<<<<< HEAD
 }
 
 .App-logo {
@@ -31,6 +32,16 @@
     transform: rotate(360deg);
   }
 }
+=======
+  background-color:   #EFF2F1;
+}
+
+a {
+  color: blue;
+  text-decoration: none; /* no underline */
+}
+
+>>>>>>> parent of 82eb756... Merge branch 'master' of https://github.com/brotibi/brotibi.github.io
 
 .Navigation {
   vertical-align: middle;
@@ -86,4 +97,8 @@
 
 .Resume Document {
   align-items: center;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> parent of 82eb756... Merge branch 'master' of https://github.com/brotibi/brotibi.github.io
