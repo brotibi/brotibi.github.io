@@ -1,0 +1,39 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.sideBar{
+  margin-top: .5vh;
+  height: 90vh;
+  border-right: 1px solid black;
+  width: 40vw;
+  position: static;
+  -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(#fff), color-stop(0.5, #fff), color-stop(0.5, #66cc00)) 21 30 30 21 repeat repeat;
+}
+
+.sideInfo{
+ 
+}
+
+.content {
+  text-align: left;
+}
+
+h2{
+  text-decoration: double;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  width: 100%;
+}
+
+.content h1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
